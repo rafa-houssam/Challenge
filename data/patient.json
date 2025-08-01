@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "prenom": "Karim",
+  "nom": "Dubois",
+  "dateNaissance": "1985-03-15",
+  "email": "karim@test.com",
+  "telephone": "22222222222"
+}
+

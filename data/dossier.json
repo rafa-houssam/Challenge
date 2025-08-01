@@ -1,0 +1,48 @@
+{
+  "antecedents": [
+    {
+      "id": 1,
+      "type": "Chirurgie",
+      "description": "Appendicectomie",
+      "date": "2010-06-15"
+    },
+    {
+      "id": 2,
+      "type": "Maladie",
+      "description": "Hypertension artérielle",
+      "date": "2010-03-10"
+    }
+  ],
+  "allergies": [
+    {
+      "id": 1,
+      "nom": "Pénicilline",
+      "severite": "Élevée",
+      "reaction": "Éruption cutanée"
+    },
+    {
+      "id": 2,
+      "nom": "Pollen",
+      "severite": "Modérée",
+      "reaction": "Rhinite allergique"
+    }
+  ],
+  "traitements": [
+    {
+      "id": 1,
+      "medicament": "Lisinopril 10mg",
+      "posologie": "1 comprimé par jour",
+      "debut": "2024-03-15",
+      "fin": null,
+      "prescripteur": "Dr. Martin"
+    },
+    {
+      "id": 2,
+      "medicament": "Vitamine D",
+      "posologie": "1 ampoule par mois",
+      "debut": "2024-10-01",
+      "fin": "2025-04-01",
+      "prescripteur": "Dr. Martin"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "medecin": "Dr. Martin",
+    "specialite": "Médecin généraliste",
+    "date": "2024-02-15",
+    "heure": "14:30",
+    "lieu": "Cabinet médical Centre-ville",
+    "statut": "passe",
+    "notes": "Consultation de routine, tout va bien"
+  },
+  {
+    "id": 2,
+    "medecin": "Dr. Leroy",
+    "specialite": "Cardiologue",
+    "date": "2026-03-20",
+    "heure": "10:00",
+    "lieu": "Clinique du Cœur",
+    "statut": "a_venir",
+    "notes": "Contrôle annuel"
+  },
+  {
+    "id": 3,
+    "medecin": "Dr. Petit",
+    "specialite": "Dermatologue",
+    "date": "2025-10-25",
+    "heure": "16:15",
+    "lieu": "Cabinet dermatologique",
+    "statut": "a_venir",
+    "notes": "Contrôle grain de beauté"
+  },
+  {
+    "id": 4,
+    "medecin": "Dr. Bernard",
+    "specialite": "Ophtalmologue",
+    "date": "2024-01-10",
+    "heure": "09:30",
+    "lieu": "Centre ophtalmologique",
+    "statut": "passe",
+    "notes": "Renouvellement lunettes"
+  }
+]

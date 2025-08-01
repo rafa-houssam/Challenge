@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+:root {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.nunito-sans-font {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+body {
+  
+  height: max-content;
+  color:var(--background) ;
+  font-family: "Nunito Sans", sans-serif;
+   font-weight: 600;
+
+}
+.adlam-display-regular {
+  font-family: "ADLaM Display", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+

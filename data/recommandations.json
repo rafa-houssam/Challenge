@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titre": "Hydratation quotidienne",
+    "description": "Buvez au moins 1,5L d'eau par jour pour maintenir une bonne hydratation",
+    "categorie": "Nutrition",
+    "priorite": "haute",
+    "dateAjout": "2025-02-01"
+  },
+  {
+    "id": 2,
+    "titre": "Marche quotidienne",
+    "description": "Effectuez 30 minutes de marche par jour pour maintenir votre forme cardiovasculaire",
+    "categorie": "Activité physique",
+    "priorite": "haute",
+    "dateAjout": "2025-02-01"
+  },
+  {
+    "id": 3,
+    "titre": "Sommeil régulier",
+    "description": "Couchez-vous et levez-vous à heures fixes pour un sommeil de qualité",
+    "categorie": "Sommeil",
+    "priorite": "moyenne",
+    "dateAjout": "2025-02-05"
+  },
+  {
+    "id": 4,
+    "titre": "Fruits et légumes",
+    "description": "Consommez 5 portions de fruits et légumes par jour",
+    "categorie": "Nutrition",
+    "priorite": "moyenne",
+    "dateAjout": "2025-02-10"
+  },
+  {
+    "id": 5,
+    "titre": "Étirements matinaux",
+    "description": "Commencez votre journée par 10 minutes d'étirements",
+    "categorie": "Activité physique",
+    "priorite": "basse",
+    "dateAjout": "2025-02-15"
+  },
+  {
+    "id": 6,
+    "titre": "Écrans avant le coucher",
+    "description": "Évitez les écrans 1h avant le coucher pour améliorer votre sommeil",
+    "categorie": "Sommeil",
+    "priorite": "moyenne",
+    "dateAjout": "2025-02-20"
+  }
+]
