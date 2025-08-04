@@ -72,7 +72,7 @@ interface MedicalContextType {
 }
 
 const MedicalContext = createContext<MedicalContextType | undefined>(undefined)
-
+// 	encapsuler
 export function MedicalProvider({ children }: { children: ReactNode }) {
   const [patient, setPatient] = useState<Patient | null>(null)
   const [rendezVous, setRendezVous] = useState<RendezVous[]>([])
