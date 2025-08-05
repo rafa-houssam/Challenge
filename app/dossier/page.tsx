@@ -45,7 +45,8 @@ export default function DossierPage() {
             <div className="flex items-center">
               <FileText className="h-6 w-6 text-blue-600" />
               <h2 className="ml-2 text-xl font-semibold text-gray-900">Antécédents médicaux</h2>
-            </div>
+            </div>  
+            {/* antecedants */}
           </div>
           <div className="p-6">
             {dossier.antecedents.length > 0 ? (

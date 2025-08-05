@@ -16,7 +16,7 @@ export default function RecommandationsPage() {
       if (activeFilter === "Toutes") return true
       return rec.categorie === activeFilter //  result
     })
-    .sort((a:Recommandation, b:Recommandation) => {
+    .sort((a:Recommandation, b:Recommandation) => {  //sorting the result and filtering
       // Trier par priorité puis par date
       const priorityOrder = { "haute": 3, "moyenne": 2, "basse": 1 }
       if (priorityOrder[a.priorite as keyof typeof priorityOrder] !== priorityOrder[b.priorite as keyof typeof priorityOrder]) {
