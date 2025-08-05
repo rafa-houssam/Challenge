@@ -6,7 +6,7 @@ import { AlertTriangle, Pill, FileText, Calendar } from "lucide-react"
 export default function DossierPage() {
   const { dossier, loading } = useMedical()
 
-  if (loading) {
+  if (loading) { //i got that coding is hard really 
     return (
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="animate-pulse">
