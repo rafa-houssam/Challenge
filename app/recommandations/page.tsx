@@ -11,7 +11,7 @@ export default function RecommandationsPage() {
 
   const categories = ["Toutes", "Sommeil", "Nutrition", "Activité physique"]
 
-  const filteredRecommandations = recommandations
+  const filteredRecommandations = recommandations  // using the filter function
     .filter((rec:Recommandation) => {
       if (activeFilter === "Toutes") return true
       return rec.categorie === activeFilter
