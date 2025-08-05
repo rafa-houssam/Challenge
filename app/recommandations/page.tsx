@@ -14,7 +14,7 @@ export default function RecommandationsPage() {
   const filteredRecommandations = recommandations  // using the filter function
     .filter((rec:Recommandation) => {
       if (activeFilter === "Toutes") return true
-      return rec.categorie === activeFilter
+      return rec.categorie === activeFilter //  result
     })
     .sort((a:Recommandation, b:Recommandation) => {
       // Trier par priorité puis par date
