@@ -6,7 +6,7 @@ import AppointmentCard from "@/components/appointment-card"
 import FilterTabs from "@/components/filter-tabs"
 
 export default function RendezVousPage() {
-  const { rendezVous, loading } = useMedical()
+  const { rendezVous, loading } = useMedical() //react hook
   const [activeFilter, setActiveFilter] = useState("Tous")
 
   const filters = ["Tous", "À venir", "Passés"]
